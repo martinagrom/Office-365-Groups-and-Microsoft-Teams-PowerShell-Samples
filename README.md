@@ -40,7 +40,7 @@ The scripts show demos how to manage  Office 365 Groups and Microsoft Teams in a
 Alternatively, developers can use the Microsoft Graph for accomplishing similar tasks. Check the group properties with Graph Explorer [aka.ms/ge](https://aka.ms/ge), similar like here:
 
 - https://graph.microsoft.com/v1.0/groups?$filter=startswith(displayname,'my')
-- See the channels, etc. https://graph.microsoft.com/v1.0/teams/<GroupID>/channels/
-- Graph API has more actions, e.g. see the channels, e.g. see the tabs... https://graph.microsoft.com/v1.0/teams/<GroupID>/channels/<ChannelID>@thread.skype/tabs
+- See the channels, etc. https://graph.microsoft.com/v1.0/teams/[GroupID]/channels/
+- Graph API has more actions, e.g. see the channels, e.g. see the tabs... https://graph.microsoft.com/v1.0/teams/[GroupID]/channels/[ChannelID]@thread.skype/tabs
 
 Have a good Office 365 Groups and Teams management with these PowerShell scripts!
